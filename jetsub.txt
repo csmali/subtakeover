@@ -1,4 +1,6 @@
 www.jet.com
+fan.football.sony.net
+developer.jet.com
 alfred-api.jet.com
 autodiscover.jet.com
 batman-api.jet.com
@@ -16,6 +18,7 @@ m.batman-api.centralus.jet.com
 batman-api-staging.centralus.jet.com
 m.batman-api-staging.centralus.jet.com
 scarletwitch-api.centralus.jet.com
+fan.football.sony.net
 channeladvisor.jet.com
 merchant-api.channeladvisor.jet.com
 clicks.jet.com
@@ -23,7 +26,6 @@ cs.jet.com
 dev.jet.com
 merchant-api.dev.jet.com
 www.merchant-api.dev.jet.com
-developer.jet.com
 www.developer.jet.com
 batman-api.eastus2.jet.com
 m.batman-api.eastus2.jet.com
@@ -34,6 +36,7 @@ go.jet.com
 history.jet.com
 www.history.jet.com
 images.jet.com
+fan.football.sony.net
 iosdl.jet.com
 jenkins.jet.com
 jetblog.jet.com
