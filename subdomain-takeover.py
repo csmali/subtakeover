@@ -2,6 +2,8 @@ import requests
 import sys
 import os	
 import subprocess
+import sublist3r 
+
 
 url="http://fan.football.sony.net/"
 r=requests.get(url)
@@ -26,7 +28,9 @@ class bcolors:
     backCyan = '\033[46m'
     backWhite = '\033[47m'
 
-file_name = sys.argv[1]
+file_name = sys.argv[1]+".txt"
+
+subdomains = sublist3r.main(sys.argv[1], 40, file_name, ports= None, silent=False, verbose= False, enable_bruteforce= False, engines=None)
 
 payload_list=["This domain is successfully pointed at WP Engine","NoSuchBucket","No such app","There isn't a GitHub Page here.","You're Almost There...","no-such-app","There's nothing here.","Sorry, this shop is currently unavailable.","The site you were looking for couldn't be found."]
 responses=[]
