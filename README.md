@@ -12,6 +12,6 @@ It uses sublist3r by @aboul3la for subdomains => https://github.com/aboul3la/Sub
 
 ## TO DO 
 
---* Output to file possible URLs.
---* Input a file.
+* Output to file possible URLs.
+* Input a file.
 
