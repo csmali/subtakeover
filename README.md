@@ -2,7 +2,17 @@
 
 ## Example Usage
 
-python subdomain-takeover.py example.com
+```python
+
+python subdomain-takeover.py --domain example.com
+
+```
+
+```python
+
+python subdomain-takeover.py --domain sublist.txt
+
+```
 Creates example.com.txt file for subdomain file to re-use
 
 
@@ -12,6 +22,6 @@ It uses sublist3r by @aboul3la for subdomains => https://github.com/aboul3la/Sub
 
 ## TO DO 
 
-* Output to file possible URLs.
-* Input a file.
+* ~~Output to file possible URLs.~~
+* ~~Input a file.~~
 
