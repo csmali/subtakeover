@@ -14,6 +14,7 @@ python subdomain-takeover.py -domain sublist.txt
 
 ```
 Creates example.com.txt file for subdomain file to re-use
+
 Creates example.com_attackresults.txt and writes vulnerable subdomains into it.
 
 ## Tools
