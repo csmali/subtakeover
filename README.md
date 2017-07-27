@@ -10,7 +10,7 @@ python subdomain-takeover.py -domain example.com
 
 ```python
 
-python subdomain-takeover.py -domain sublist.txt
+python subdomain-takeover.py -file sublist.txt
 
 ```
 Creates example.com.txt file for subdomain file to re-use
