@@ -20,7 +20,7 @@ class bcolors:
 	
 def write_to_file(file_name,content):
 	with open(file_name+"_attackresults.txt","w") as f:
-		f.write(content)
+		f.write(str(content))
 	print bcolors.BLUE +"Possible URLs are written to : " +file_name+ "_attackresults.txt" + bcolors.ENDC 
 
 parser = argparse.ArgumentParser(description='Tool Arguments')
