@@ -41,6 +41,8 @@ payload_dict["no-such-app"]="Heroku"
 payload_dict["Sorry, this shop is currently unavailable"]="Shopify"
 payload_dict["The site you were looking for couldn't be found"]="WPEngine"
 payload_dict["No Such Account"]="SquareSpace"
+payload_dict["The request could not be satisfied"]="Cloudfront"
+
 
 if args.file:
 
@@ -81,8 +83,8 @@ if args.file:
 						if(isFound and i>0):
 							print bcolors.GREEN + "Well we may have found one => CNAME" ,query_urls[i], "  Service ", service, bcolors.ENDC
 							print bcolors.YELLOW + "Original URL" , query_urls[0],bcolors.ENDC
-							file_output_content=file_output_content+"possible CNAME URL : ",query_urls[i],"  Service ", service,"\n"
-							file_output_content=file_output_content+"original URL : " , query_urls[0],"\n"
+							file_output_content=file_output_content+"possible CNAME URL : "+query_urls[i]+"  Service "+ service+"\n"
+							file_output_content=file_output_content+"original URL : " + query_urls[0]+"\n"
 						elif(isFound):
 							print bcolors.GREEN + "Well we may have found one => " ,query_urls[i], "  Service ", service,  bcolors.ENDC 
 							file_output_content=file_output_content+"possible URL : "+query_urls[i]+"  Service "+ service+"\n"
@@ -141,8 +143,8 @@ elif args.domain:
 						if(isFound and i>0):
 							print bcolors.GREEN + "Well we may have found one => CNAME" ,query_urls[i], "  Service ", service, bcolors.ENDC
 							print bcolors.YELLOW + "Original URL" , query_urls[0],bcolors.ENDC
-							file_output_content=file_output_content+"possible CNAME URL : ",query_urls[i],"  Service ", service,"\n"
-							file_output_content=file_output_content+"original URL : " , query_urls[0],"\n"
+							file_output_content=file_output_content+"possible CNAME URL : "+query_urls[i]+"  Service "+ service+"\n"
+							file_output_content=file_output_content+"original URL : " + query_urls[0],"\n"
 						elif(isFound):
 							print bcolors.GREEN + "Well we may have found one => " ,query_urls[i], "  Service ", service,  bcolors.ENDC 
 							file_output_content=file_output_content+"possible URL : "+query_urls[i]+"  Service "+ service+"\n"
